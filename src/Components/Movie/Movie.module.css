@@ -1,0 +1,23 @@
+.movie_box{
+  width: 150px;
+  height: 320px;
+  background-color: rgba(128, 0, 128, 0.567);
+  border: 2px solid red;
+  border-radius: 20px;
+}
+
+.movie_box img{
+  width: 150px;
+  height: 200px;
+  border-radius: 20px 20px 0 0 ;
+}
+
+.movie_box p {
+  color: white;
+}
+
+.allObjBox{
+  width: 1500px;
+  display: flex;
+  justify-content: space-around;
+}

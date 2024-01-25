@@ -1,0 +1,24 @@
+.janrButton{
+  background-color: greenyellow;
+}
+.allButton{
+  background-color: coral;
+}
+
+.buttonsJ{
+  width: 700px;
+  height: 60px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(0, 38, 255);
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.allButtonJ{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

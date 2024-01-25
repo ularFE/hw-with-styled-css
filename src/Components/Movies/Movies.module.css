@@ -1,0 +1,42 @@
+.allCards{
+  width: 1500px;
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+}
+
+.movie_box{
+  background-color: aqua;
+  width: 150px;
+  height: 300px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.main_div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie_box button{
+  width: 70px;
+  height: 20px;
+}
+
+.movie_box p {
+  margin: 7px;
+}
+
+.movie_box img{
+  border-radius: 10px 10px 0 0 ;
+}
+
+
+
+.deleteBtn{
+  background-color: red;
+}
+.updateBtn{
+  background-color: rgb(0, 21, 255);
+}
